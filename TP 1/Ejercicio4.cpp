@@ -32,8 +32,8 @@ int main()
     porcOcup = (float) pasajeOcup * 100 / total;
 
     cout << endl;
-    cout << "Este es el porcentaje de ocupacion: "; cout << porcOcup; cout << "%"; cout << endl;
-    cout << "Este es el porcentaje de no ocupacion: "; cout << porcDisp; cout << "%"; cout << endl;
+    cout << "Este es el porcentaje de ocupacion: " << porcOcup << "%" << endl;
+    cout << "Este es el porcentaje de no ocupacion: " << porcDisp << "%" << endl;
 
 
     return 0;

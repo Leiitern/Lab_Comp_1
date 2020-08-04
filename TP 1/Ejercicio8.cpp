@@ -11,3 +11,26 @@
        Ejemplo 2. Si el importe de la venta sin descuento es $ 500 y el importe de la venta con
        descuento es $ 500 entonces el porcentaje de descuento aplicado fue el 0%.
 */
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int importVenta;
+    int imporVenDesc;
+    float desc;
+
+    cout << "Ingrese el importe de la venta, sin descuento aplicado: ";
+    cin >> importVenta;
+
+    cout << "Ingrese el importe de la venta, con el descuento aplicado: ";
+    cin >> imporVenDesc;
+
+    desc =  100 - (imporVenDesc * 100) / (float) importVenta;
+
+    cout << endl;
+    cout << "El descuento que se le aplico a la venta es del: " << desc << "%" << endl;
+
+    return 0;
+}

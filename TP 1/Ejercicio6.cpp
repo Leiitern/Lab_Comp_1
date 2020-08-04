@@ -38,11 +38,11 @@ int main()
     porcSema4 = (float) sema4 * 100 / recaudacion;
 
     cout << endl;
-    cout << "El promedio de recaudacion por semana es: $"; cout << promRecaudacion; cout << endl << endl;
-    cout << "El porcentaje por semana para la semana 1 es: "; cout << porcSema1; cout << "%"; cout << endl;
-    cout << "El porcentaje por semana para la semana 2 es: "; cout << porcSema2; cout << "%"; cout << endl;
-    cout << "El porcentaje por semana para la semana 3 es: "; cout << porcSema3; cout << "%"; cout << endl;
-    cout << "El porcentaje por semana para la semana 4 es: "; cout << porcSema4; cout << "%"; cout << endl;
+    cout << "El promedio de recaudacion por semana es: $" << promRecaudacion << endl << endl;
+    cout << "El porcentaje por semana para la semana 1 es: " << porcSema1 << "%" << endl;
+    cout << "El porcentaje por semana para la semana 2 es: " << porcSema2 << "%" << endl;
+    cout << "El porcentaje por semana para la semana 3 es: " << porcSema3 << "%" << endl;
+    cout << "El porcentaje por semana para la semana 4 es: " << porcSema4 << "%" << endl;
 
     return 0;
 }

@@ -25,7 +25,7 @@ int main()
     descuento = impVent * (descVent / 100);
     imporPagar = impVent - descuento;
 
-    cout << "Total a pagar: $"; cout << imporPagar;
+    cout << "Total a pagar: $" << imporPagar;
 
     return 0;
 }

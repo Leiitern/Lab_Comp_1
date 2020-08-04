@@ -21,7 +21,7 @@ int main()
 
     sueldo = horasTrab * valorHora;
 
-    cout << "Este es el sueldo a cobrar: $"; cout << sueldo;
+    cout << "Este es el sueldo a cobrar: $" << sueldo;
 
 
     return 0;

@@ -25,7 +25,7 @@ int main()
 
     sueldoTotal = sueldoFijo + (autosVendidos * premio);
 
-    cout << "El sueldo total a pagar es de: $"; cout << sueldoTotal; cout << endl;
+    cout << "El sueldo total a pagar es de: $" << sueldoTotal << endl;
 
 
     return 0;

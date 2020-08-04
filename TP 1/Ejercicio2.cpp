@@ -26,8 +26,8 @@ int main()
 
     cout << endl;
 
-    cout << "El valor del primer numero: "; cout << num1; cout << endl;
-    cout << "El valor del segundo numero: "; cout << num2; cout << endl;
+    cout << "El valor del primer numero: " << num1 << endl;
+    cout << "El valor del segundo numero: " << num2 << endl;
 
 
     return 0;

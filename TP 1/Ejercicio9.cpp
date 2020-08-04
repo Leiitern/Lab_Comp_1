@@ -9,3 +9,23 @@
        Ejemplo 3: si se ingresan 50 minutos el programa mostrará por pantalla que equivalen a 0
        horas y 50 minutos
 */
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int cantMin;
+    int horas;
+    int minutos;
+
+    cout << "Ingrese la cantidad de minutos: ";
+    cin >> cantMin;
+
+    horas = cantMin / 60;
+    minutos = cantMin - (horas * 60);
+
+    cout << endl << "La cantidad de minutos ingresados equivalen a " << horas << " horas y " << minutos << " minutos" << endl;
+
+    return 0;
+}

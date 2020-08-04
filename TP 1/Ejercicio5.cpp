@@ -31,10 +31,10 @@ int main()
     porcC = (float) alfC * 100 / totalVentas;
 
     cout << endl;
-    cout << "Este es el porcentaje ventas de cada una de las marcas:"; cout << endl << endl;
-    cout << "Porcentaje de ventas de la marca A: "; cout << porcA; cout << "%"; cout << endl;
-    cout << "Porcentaje de ventas de la marca B: "; cout << porcB; cout << "%"; cout << endl;
-    cout << "Porcentaje de ventas de la marca C: "; cout << porcC; cout << "%"; cout << endl;
+    cout << "Este es el porcentaje ventas de cada una de las marcas:" << endl << endl;
+    cout << "Porcentaje de ventas de la marca A: " << porcA << "%" << endl;
+    cout << "Porcentaje de ventas de la marca B: " << porcB << "%" << endl;
+    cout << "Porcentaje de ventas de la marca C: " << porcC << "%" << endl;
 
 
     return 0;
