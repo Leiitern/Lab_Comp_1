@@ -1,13 +1,12 @@
 /*
-    7) Hacer un programa para ingresar por teclado tres números e informar con una leyenda
-       aclaratoria si los tres son todos distintos entre sí, caso contrario no emitir nada.
+    7) Hacer un programa para ingresar por teclado tres nï¿½meros e informar con una leyenda
+       aclaratoria si los tres son todos distintos entre sï¿½, caso contrario no emitir nada.
 
-       Ayuda: Si A es distinto de B y B es distinto de C, es no sígnica que A y C sean distintos.
+       Ayuda: Si A es distinto de B y B es distinto de C, es no sï¿½gnica que A y C sean distintos.
 
        Ejemplo: A=8, B=6 y C=8.
 */
 #include <iostream>
-
 using namespace std;
 
 int main()

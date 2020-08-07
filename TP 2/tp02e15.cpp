@@ -1,16 +1,15 @@
 /*
-    15) Un año es bisiesto si es múltiplo de 4, exceptuando a los años que son múltiplos de 100
-        pero que no sean múltiplos de 400. Esto último significa que el año 1900 no es bisiesto, pero
-        el año 2000 si lo es.
-        Hacer un programa para que ingresar un año y listar por pantalla si es bisiesto o no lo es.
+    15) Un aï¿½o es bisiesto si es mï¿½ltiplo de 4, exceptuando a los aï¿½os que son mï¿½ltiplos de 100
+        pero que no sean mï¿½ltiplos de 400. Esto ï¿½ltimo significa que el aï¿½o 1900 no es bisiesto, pero
+        el aï¿½o 2000 si lo es.
+        Hacer un programa para que ingresar un aï¿½o y listar por pantalla si es bisiesto o no lo es.
 
-        Ejemplo 1. Si se ingresa el año 2020 se indicará como bisiesto.
-        Ejemplo 2. Si se ingresa el año 2019 se indicará como no bisiesto.
-        Ejemplo 3. Si se ingresa el año 1800 o 1900 se indicará como no bisiesto.
-        Ejemplo 4. Si se ingresa el año 1600 o 2000 se indicará como bisiesto.
+        Ejemplo 1. Si se ingresa el aï¿½o 2020 se indicarï¿½ como bisiesto.
+        Ejemplo 2. Si se ingresa el aï¿½o 2019 se indicarï¿½ como no bisiesto.
+        Ejemplo 3. Si se ingresa el aï¿½o 1800 o 1900 se indicarï¿½ como no bisiesto.
+        Ejemplo 4. Si se ingresa el aï¿½o 1600 o 2000 se indicarï¿½ como bisiesto.
 */
 #include <iostream>
-
 using namespace std;
 
 int main()
@@ -18,7 +17,7 @@ int main()
     int agno;
     char n = 164;
 
-    cout << "Ingrese el a"<<n<<"o "
+    cout << "Ingrese el a"<<n<<"o ";
 
     return 0;
 }

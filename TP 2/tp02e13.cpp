@@ -1,9 +1,8 @@
 /*
-    13) Hacer un programa para leer tres números diferentes y determinar e informar el número
-        del medio. Ejemplo: si se ingresan 6, 10, 8, se emitirá 8.
+    13) Hacer un programa para leer tres nï¿½meros diferentes y determinar e informar el nï¿½mero
+        del medio. Ejemplo: si se ingresan 6, 10, 8, se emitirï¿½ 8.
 */
 #include <iostream>
-
 using namespace std;
 
 int main()

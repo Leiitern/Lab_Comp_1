@@ -1,16 +1,15 @@
 /*
-    3) Hacer un programa para ingresar por teclado un número y luego informar por pantalla con
+    3) Hacer un programa para ingresar por teclado un nï¿½mero y luego informar por pantalla con
        un cartel aclaratorio si el mismo es par o impar.
 */
 #include <iostream>
-
 using namespace std;
 
 int main()
 {
     int num;
     int remainder;
-
+    //Intento de programacion bilingÃ¼e jaja
     cout << "Enter a number: ";
     cin >> num;
 

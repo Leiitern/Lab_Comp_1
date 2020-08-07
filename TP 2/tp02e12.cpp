@@ -1,9 +1,8 @@
 /*
-    12) Hacer un programa para ingresar tres números distintos y listarlos ordenados de menor a
+    12) Hacer un programa para ingresar tres nï¿½meros distintos y listarlos ordenados de menor a
         mayor. Ejemplo: si se ingresa 4,-3,7, se debe mostrar -3, 4,7.
 */
 #include <iostream>
-
 using namespace std;
 
 int main()

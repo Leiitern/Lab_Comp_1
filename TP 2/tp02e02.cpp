@@ -1,9 +1,8 @@
 /*
-    2) Hacer un programa para ingresar por teclado dos números y luego informar por pantalla
-       con un cartel aclaratorio si el primer número es múltiplo del segundo.
+    2) Hacer un programa para ingresar por teclado dos nï¿½meros y luego informar por pantalla
+       con un cartel aclaratorio si el primer nï¿½mero es mï¿½ltiplo del segundo.
 */
 #include <iostream>
-
 using namespace std;
 
 int main()

@@ -1,9 +1,8 @@
 /*
-    11) Hacer un programa para ingresar cinco números y listar cuántos de esos cinco números
+    11) Hacer un programa para ingresar cinco nï¿½meros y listar cuï¿½ntos de esos cinco nï¿½meros
         son positivos.
 */
 #include <iostream>
-
 using namespace std;
 
 int main()

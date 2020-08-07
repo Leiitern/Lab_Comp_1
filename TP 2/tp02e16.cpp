@@ -1,8 +1,8 @@
 /*
-    16) Hacer un programa para ingresar por teclado las cuatro notas de los exámenes obtenidas
+    16) Hacer un programa para ingresar por teclado las cuatro notas de los exï¿½menes obtenidas
         por un alumno y luego emitir uno solo de los cartel de acuerdo a las siguientes condiciones:
-        - “Promociona”, si obtuvo en los cuatro exámenes nota 7 o más.
-        - “Rinde examen final”, si obtuvo nota 4 o más en por lo menos tres exámenes.
-        - “Recupera Parciales”, si obtuvo nota 4 o más en por lo menos uno de los exámenes.
-        - “Recursa la materia”, si no aprobó ningún examen parcial.
+        - ï¿½Promocionaï¿½, si obtuvo en los cuatro exï¿½menes nota 7 o mï¿½s.
+        - ï¿½Rinde examen finalï¿½, si obtuvo nota 4 o mï¿½s en por lo menos tres exï¿½menes.
+        - ï¿½Recupera Parcialesï¿½, si obtuvo nota 4 o mï¿½s en por lo menos uno de los exï¿½menes.
+        - ï¿½Recursa la materiaï¿½, si no aprobï¿½ ningï¿½n examen parcial.
 */

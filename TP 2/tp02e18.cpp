@@ -8,7 +8,7 @@
         Hacer un programa para que, dado el consumo en kilovatios de un determinado cliente, el
         programa calcule e informe el total a pagar por el mismo.
 
-        Ejemplo 1: Un consumo de 55 kilovatios, se calculará: $ 10 x 55= $ 550
-        Ejemplo 2: Un consumo de 125 kilovatios, se calculará: $ 10 x 100 + $ 12 x 25=$ 1300
-        Ejemplo 3: Un consumo de 250 kilovatios, se calculará: $ 10 x 100 + $ 12 x 100 + $ 15 x 50 = $ 2950
+        Ejemplo 1: Un consumo de 55 kilovatios, se calcularï¿½: $ 10 x 55= $ 550
+        Ejemplo 2: Un consumo de 125 kilovatios, se calcularï¿½: $ 10 x 100 + $ 12 x 25=$ 1300
+        Ejemplo 3: Un consumo de 250 kilovatios, se calcularï¿½: $ 10 x 100 + $ 12 x 100 + $ 15 x 50 = $ 2950
 */

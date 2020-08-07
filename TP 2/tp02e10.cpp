@@ -1,8 +1,7 @@
 /*
-    10) Hacer un programa para ingresar cinco números y listar el máximo de ellos.
+    10) Hacer un programa para ingresar cinco nï¿½meros y listar el mï¿½ximo de ellos.
 */
 #include <iostream>
-
 using namespace std;
 
 int main()
