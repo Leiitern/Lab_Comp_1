@@ -19,17 +19,17 @@ int main()
 
     if(importe < 100)
     {
-        descImp = (float) importe * 0.95;
+        descImp = importe * 0.95;
         cout << endl << "Importe con el descuento aplicado: $ " << descImp << endl;
     }
     else if(importe >= 100 && importe <= 500)
     {
-        descImp = (float) importe * 0.90;
+        descImp = importe * 0.90;
         cout << endl << "Importe con el descuento aplicado: $ " << descImp << endl;
     }
     else if(importe > 500)
     {
-        descImp = (float) importe * 0.85;
+        descImp = importe * 0.85;
         cout << endl << "Importe con el descuento aplicado: $ " << descImp << endl;
     }
 
