@@ -55,25 +55,20 @@ int main()
 
     cout << endl << "Los numeros ordenado de menor a mayor: " << endl << endl;
 
+    //El uso de este switch es opcional, lo use porque si
     switch(orden)
     {
-        case 1:
-            cout << num1 << num2 << num3 << endl;
+        case 1: cout << num1 << num2 << num3 << endl;
             break;
-        case 2:
-            cout << num1 << num3 << num2 << endl;
+        case 2: cout << num1 << num3 << num2 << endl;
             break;
-        case 3:
-            cout << num2 << num1 << num3 << endl;
+        case 3: cout << num2 << num1 << num3 << endl;
             break;
-        case 4:
-            cout << num2 << num3 << num1 << endl;
+        case 4: cout << num2 << num3 << num1 << endl;
             break;
-        case 5:
-            cout  << num3 << num1 << num2 << endl;
+        case 5: cout  << num3 << num1 << num2 << endl;
             break;
-        case 6:
-            cout  << num3 << num2 << num1 << endl;
+        case 6: cout  << num3 << num2 << num1 << endl;
             break;
     }
 
