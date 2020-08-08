@@ -41,9 +41,9 @@ int main()
 
 
     cout << "Cantidad de billetes de 1000: " << b_mil << endl;
-    cout << "Cantidad de billetes de 500: " << b_quini<< endl;
-    cout << "Cantidad de billetes de 200: " << b_doc<< endl;
-    cout << "Cantidad de billetes de 100: " << b_cien<< endl;
+    cout << "Cantidad de billetes de 500: " << b_quini << endl;
+    cout << "Cantidad de billetes de 200: " << b_doc << endl;
+    cout << "Cantidad de billetes de 100: " << b_cien << endl;
 
 
 
