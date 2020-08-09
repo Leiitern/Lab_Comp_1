@@ -27,28 +27,28 @@ int main()
     cout << "Ingrese el quinto numero: ";
     cin >> num5;
 
-    if(num1 > 5)
+    if(num1 > 0)
     {
         contPos++;
     }
-    if(num2 > 5)
+    if(num2 > 0)
     {
         contPos++;
     }
-    if(num3 > 5)
+    if(num3 > 0)
     {
         contPos++;
     }
-    if(num4 > 5)
+    if(num4 > 0)
     {
         contPos++;
     }
-    if(num5 > 5)
+    if(num5 > 0)
     {
         contPos++;
     }
 
-    cout << endl << "Esta es la cantidad de numeros mayores a 5: " << contPos << endl;
+    cout << endl << "Esta es la cantidad de numeros positivos: " << contPos << endl;
 
 
     return 0;
