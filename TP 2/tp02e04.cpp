@@ -23,14 +23,10 @@ int main()
 
     if(result < 0)
     {
-        result = result * -1;
-        cout << "La diferencia absoluta es: " << result << endl;
-    }
-    else
-    {
-        cout << "La diferencia absoluta es: " << result << endl;
-    }
+        result = result * (-1);
+    } 
 
+    cout << "La diferencia absoluta es: " << result << endl;
 
 
     return 0;
