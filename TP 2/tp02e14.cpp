@@ -19,8 +19,9 @@ int main()
     int nacDia, nacMes, nacAgno;
     int actualDia, actualMes, actualAgno;
     int edad;
-    char n = 164;
+    char n = 164; //para que aparezca la enie 
 
+    //Ingresa la fecha de nacimiento
     cout << "Ingrese el dia de nacimiento: ";
     cin >> nacDia;
 
@@ -30,6 +31,7 @@ int main()
     cout << "Ingrese el a"<<n<<"o de nacimiento: ";
     cin >> nacAgno;
 
+    //Ingresa la fecha actual
     cout << endl << "Ingrese el dia actual: ";
     cin >> actualDia;
 
