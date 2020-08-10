@@ -1,0 +1,5 @@
+/*
+    13) Dada una lista de 7 números informar cual es el primer y último número impar
+        ingresado.
+        Ejemplo 8, 4, -5, 6, 9, 5, 18 se informa -5 y 5.
+*/
