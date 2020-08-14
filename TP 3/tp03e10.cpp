@@ -9,3 +9,58 @@
         “seguramente” es un positivo y el mínimo “seguramente” es un negativo, queda
         totalmente descartada.
 */
+#include <iostream>
+using namespace std;
+
+int main()
+{	
+	int i; 
+	int j = 0, l;
+	int num;
+	int max, maxPos;
+	int min, minPos;
+
+	for(i = 0; i < 10; i++)
+	{
+		cout << "Ingrese un numero: ";
+		cin >> num;
+
+		if(!j)
+		{
+			max = num;
+			maxPos = i;
+			j++;
+		}
+		else
+		{
+			if(num > max)
+			{
+				max = num;
+				maxPos = i;
+			}
+			else
+			{
+				if(!l)
+				{
+					min = num;
+					minPos = i;
+					l++;
+				}
+				else
+				{
+					if(num < min)
+					{
+						min = num;
+						minPos = i;
+					}
+				}
+			}
+		}
+	}
+
+	cout << "El maximo encontrado es " << max << " posicion " << maxPos + 1 << endl;
+	
+	cout << "El minimo encontrado es " << min << " posicion " << minPos + 1 << endl;
+
+	return 0;
+}
