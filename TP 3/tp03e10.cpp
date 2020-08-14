@@ -32,24 +32,22 @@ int main()
 			j++;
 		}
 		else if(num > max)
-			{
-				max = num;
-				maxPos = i;
-			}
-			else if(!l)
-				{
-					min = num;
-					minPos = i;
-					l++;
-				}
-				else if(num < min)
-					{
-						min = num;
-						minPos = i;
-					}
-				}
-			}
+		{
+			max = num;
+			maxPos = i;
 		}
+		else if(!l)
+		{
+			min = num;
+			minPos = i;
+			l++;
+		}
+		else if(num < min)
+		{
+			min = num;
+			minPos = i;
+		}
+		
 	}
 
 	cout << "El maximo encontrado es " << max << " posicion " << maxPos + 1 << endl;
